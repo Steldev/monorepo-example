@@ -1,0 +1,39 @@
+# dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# env
+**/.env
+
+# production
+**/build/
+**/dist/
+
+# yarn
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/debug.log*
+
+# android
+**/build/
+**/.idea
+**/.gradle
+**/local.properties
+*.iml
+**/*.hprof
+
+# fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+
+# vs code
+**/.vscode/
+
+# buck
+**/buck-out/
+**/\.buckd/
+*.keystore
+!debug.keystore

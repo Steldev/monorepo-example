@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "web",
+      "app",
+      "shared"
+    ]
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.66.3"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-native": "0.66.4"
+  }
+}
